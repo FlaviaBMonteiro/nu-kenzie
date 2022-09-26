@@ -13,7 +13,12 @@ const TotalMoney = ({ listTransactions }) => {
     <div className="left--moneyTotal">
       <div className="left--moneyTotal--value">
         <p>Valor Total:</p>
-        <p className="left--moneyTotal--saldo">$ {totalPrice}</p>
+        <p className="left--moneyTotal--saldo">
+          {totalPrice.toLocaleString("pt-br", {
+            style: "currency",
+            currency: "BRL",
+          })}
+        </p>
       </div>
       <p>O valor se refere ao saldo</p>
     </div>
