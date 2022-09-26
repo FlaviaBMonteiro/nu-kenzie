@@ -13,7 +13,10 @@ const Card = ({ transaction, removeTransaction }) => {
             currency: "BRL",
           })}
         </span>
-        <button onClick={() => removeTransaction(transaction)}>
+        <button
+          className="lista--button"
+          onClick={() => removeTransaction(transaction)}
+        >
           <FaTrash className="listaIcon" />
         </button>
       </div>
