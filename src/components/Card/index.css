@@ -1,0 +1,60 @@
+.entradas {
+  border-left: 4px solid var(--color-secondary);
+  background-color: var(--color-grey-1);
+  border-radius: 4px 0px 0px 4px;
+}
+.saidas {
+  border-left: 4px solid var(--color-grey-2);
+  background-color: var(--color-grey-1);
+  border-radius: 4px 0px 0px 4px;
+}
+li {
+  margin-bottom: 5%;
+}
+
+.lista {
+  margin: 0% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-grey-4);
+}
+
+.lista span {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--color-grey-4);
+}
+
+.lista button {
+  border: none;
+  background: var(--color-grey-2);
+  border-radius: 2.46px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.lista button :hover {
+  border: none;
+  color: var(--color-grey-2);
+  border-radius: 2.46px;
+  background: var(--color-grey-3);
+  border-radius: 2.46px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.listaIcon {
+  padding: 5px 5px;
+  color: var(--color-grey-3);
+}
+
+.listaTipo {
+  margin: 0% 5%;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--color-grey-3);
+}

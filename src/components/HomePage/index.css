@@ -1,0 +1,61 @@
+.homePage {
+  background-color: var(--color-grey-4);
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.homeLeft {
+  margin-top: 10%;
+  padding-left: 15%;
+  width: 30%;
+}
+
+h1 {
+  background: -webkit-linear-gradient(176deg, #ffffff 90%, #fd377e 20%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  size: 19px;
+}
+
+.homeLeft--text {
+  color: var(--color-white);
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.homeLeft--span {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.homeLeft--button {
+  color: var(--color-white);
+  padding: 13px 20px;
+  width: 241px;
+  height: 48px;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: all 0.5s ease-out;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.homeLeft--button:hover {
+  background: var(--color-primary-2);
+  border: 2px solid var(--color-primary-2);
+}
+.homeRight {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .homeRight {
+    display: none;
+  }
+}
